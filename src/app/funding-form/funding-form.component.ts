@@ -27,7 +27,7 @@ export class FundingFormComponent implements OnInit {
   }
 
   submitFundingForm(backer: string, fundingAmount: string) {
-    this.selectedProject.backers = [];
+    this.selectedProject.backers;
     this.selectedProject.backers.push(backer);
     this.selectedProject.amountRaised = Number(this.selectedProject.amountRaised) + Number(fundingAmount);
     console.log(this.selectedProject);
